@@ -1,0 +1,93 @@
+body {
+  width: 100%;
+  background-color: papayawhip;
+}
+
+/* header */
+.wrapper {
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.header {
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+
+  border-radius: 5px;
+  border-top: 5px solid salmon;
+  background-color: white;
+}
+
+input:hover {
+  border-bottom-color: rgb(243, 227, 62); /* 마우스를 올렸을 때의 밑줄 색상 */
+}
+
+input:focus {
+  outline: none;
+  border-bottom-color: rgb(288, 176, 84); /* 클릭한 후의 밑줄 색상 */
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid transparent;
+}
+
+.header-title {
+  font-size: 24px;
+}
+
+.header-content {
+  font-size: 16px;
+}
+
+/* article */
+
+.article {
+  padding: 20px;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 15px;
+
+  border-radius: 5px;
+  background-color: white;
+}
+
+.article-title {
+  display: flex;
+  gap: 10px;
+}
+
+.article select {
+  width: 250px;
+  height: 30px;
+  font-size: 14px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.article-title input {
+  font-size: 18px;
+}
+
+.add-option-btn {
+  color: gray;
+
+  text-align: left;
+  background-color: white;
+  border: none;
+
+  cursor: pointer;
+}
+
+.art-btn {
+  text-align: right;
+}
