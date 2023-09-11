@@ -1,9 +1,7 @@
 const wrapper = document.querySelector(".wrapper");
-const articleUl = wrapper.querySelector(".article-ul");
-const select = wrapper.querySelector(".select");
-const wrapperOtp = wrapper.querySelector(".wrapper-opt");
-const addOptionBtn = wrapper.querySelector(".add-option-btn");
-const delOptionBtn = wrapper.querySelector(".del-option-btn");
+const mainSelect = wrapper.querySelector(".main-select");
+const mainContent = wrapper.querySelector(".main-content");
+const mainContentLists = wrapper.querySelector(".main-content-lists");
 
 let count = 0;
 

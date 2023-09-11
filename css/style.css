@@ -23,19 +23,20 @@ body {
   background-color: white;
 }
 
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid transparent;
+}
+
 input:hover {
   border-bottom-color: rgb(243, 227, 62); /* 마우스를 올렸을 때의 밑줄 색상 */
+  background-color: rgba(235, 234, 234, 0.765);
 }
 
 input:focus {
   outline: none;
   border-bottom-color: rgb(288, 176, 84); /* 클릭한 후의 밑줄 색상 */
-}
-
-input {
-  width: 100%;
-  border: none;
-  border-bottom: 2px solid transparent;
 }
 
 .header-title {
@@ -46,9 +47,9 @@ input {
   font-size: 16px;
 }
 
-/* article */
+/* main */
 
-.article {
+.main {
   padding: 20px;
   margin-top: 20px;
 
@@ -61,12 +62,12 @@ input {
   background-color: white;
 }
 
-.article-title {
+.main-title {
   display: flex;
   gap: 10px;
 }
 
-.article select {
+.main select {
   width: 250px;
   height: 30px;
   font-size: 14px;
@@ -74,7 +75,7 @@ input {
   border-radius: 5px;
 }
 
-.article-title input {
+.main-title input {
   font-size: 18px;
 }
 
@@ -88,6 +89,10 @@ input {
   cursor: pointer;
 }
 
-.art-btn {
+.main-btn {
   text-align: right;
+}
+
+.main-content-list {
+  display: flex;
 }
